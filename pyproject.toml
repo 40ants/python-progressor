@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "python-progressor"
 module_name = "progressor"
-version = "0.1.1"
+version = "0.1.2"
 description = ""
 authors = ["Alexander Artemenko <svetlyak.40wt@gmail.com>"]
 keywords = ["progress", "bar", "long", "running", "processes"]
