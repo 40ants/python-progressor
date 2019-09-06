@@ -172,6 +172,7 @@ def create_progress(id=None,
 
 
 def p(obj,
+      id=None,
       total=None,
       description=None,
       ttl=DEFAULT_TTL,
@@ -184,6 +185,7 @@ def p(obj,
         total = len(obj)
 
     with create_progress(
+            id=id,
             host=host,
             port=port,
             total=total,
